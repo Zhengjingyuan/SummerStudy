@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.screen.LoginScreen"
+            android:exported="false"
+            android:label="@string/title_activity_login_screen"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ui.components.theWebView"
+            android:exported="false"
+            android:label="@string/title_activity_the_web_view"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ui.components.NaviHostApp"
+            android:exported="false"
+            android:label="@string/title_activity_navi_host_app"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ui.screen.ArticalDetailScreen"
+            android:exported="false"
+            android:label="@string/title_activity_artical_detail_screen"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ui.components.DailyTask"
+            android:exported="false"
+            android:label="@string/title_activity_daily_task"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ui.components.ChartView"
+            android:exported="false"
+            android:label="@string/title_activity_chart_view"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ui.components.CircleRing"
+            android:exported="false"
+            android:label="@string/title_activity_circle_ring"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ui.components.Videos"
+            android:exported="false"
+            android:label="@string/title_activity_videos"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ui.components.ArticalItem"
+            android:exported="false"
+            android:label="@string/title_activity_artical_item"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ui.components.Notification"
+            android:exported="false"
+            android:label="@string/title_activity_notification"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ui.components.SwiperContent"
+            android:exported="false"
+            android:label="@string/title_activity_swiper_content"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ui.components.TopAppBar"
+            android:exported="false"
+            android:label="@string/title_activity_top_app_bar"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ui.screen.MyScreen"
+            android:exported="false"
+            android:label="@string/title_activity_my_screen"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ui.screen.TaskScreen"
+            android:exported="false"
+            android:label="@string/title_activity_task_screen"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ui.screen.StudyScreen"
+            android:exported="false"
+            android:label="@string/title_activity_study_screen"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".ui.screen.MainFrame"
+            android:exported="false"
+            android:label="@string/title_activity_main_frame"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

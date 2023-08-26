@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_main_frame">MainFrame</string>
+    <string name="title_activity_study_screen">StudyScreen</string>
+    <string name="title_activity_task_screen">TaskScreen</string>
+    <string name="title_activity_my_screen">MyScreen</string>
+    <string name="title_activity_top_app_bar">TopAppBar</string>
+    <string name="title_activity_swiper_content">SwiperContent</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_artical_item">ArticalItem</string>
+    <string name="title_activity_videos">Videos</string>
+    <string name="title_activity_circle_ring">CircleRing</string>
+    <string name="title_activity_chart_view">ChartView</string>
+    <string name="title_activity_daily_task">DailyTask</string>
+    <string name="title_activity_artical_detail_screen">ArticalDetailScreen</string>
+    <string name="title_activity_navi_host_app">NaviHostApp</string>
+    <string name="title_activity_the_web_view">theWebView</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+</resources>
